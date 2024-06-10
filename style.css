@@ -1,0 +1,543 @@
+@media screen and (max-width: 1600px) and (min-width: 992px) {
+  html {
+    zoom: 75%;
+  }
+
+  .texto-mantenteMOBILE,
+  #carouselExampleSlidesOnly,
+  .bloque-textoMOBILE,
+  .titulo-bloque3-Mobile,
+  .carrusel-Mobile,
+  #feedback {
+    display: none;
+  }
+
+  html, body {
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  body {
+      background-color: #F1F4F7;
+      padding: 0px;
+      margin: 0px;
+  }
+
+  @font-face {
+      font-family: "Roboto Condensed";
+      src: url("./prueba de html figma/fuentes/RobotoCondensed-Regular.ttf");
+  }
+
+  @font-face {
+      font-family: "Roboto";
+      src: url("./prueba de html figma/fuentes/Roboto-Regular.ttf");
+  }
+
+  @font-face {
+      font-family: "Titillium Web";
+      src: url("./prueba de html figma/fuentes/TitilliumWeb-Regular.ttf");
+  }
+
+  header {
+      padding: 0px;
+      margin: 0px;
+      background: rgb(0,0,0);
+      background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(241,244,247,1) 100%);
+  }
+
+  .logo-header {
+      margin: 20px;
+  }
+
+  .bloque1 {
+      margin-top: 30px;
+      margin-bottom: 100px;
+      margin-left: 18%;
+      display: grid;
+      gap: 5rem;
+      grid-template-columns: 35% 65%;
+  }
+
+  .Mantente {
+      font-size: 64px;
+      font-family: Roboto Condensed;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 3px;
+  }
+
+  .texto-mantentePC {
+      font-size: 22px;
+      font-family: Arial;
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 28px;
+  }
+
+  .texto-mantenteMOBILE {
+      font-size: 22px;
+      font-family: Arial;
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 28px;
+  }
+
+  .CTA1 {
+      margin: 10px auto;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 32px;
+      font-family: Titillium Web;
+      background: rgb(208,23,23);
+      background: linear-gradient(180deg, rgba(208,23,23,1) 50%, rgba(184,0,0,1) 50%);
+      padding: 10px; 
+      border-radius: 10px;
+      margin-bottom: 48px;
+      height: 75px;
+      width: 454px;
+      border: none;
+      position: relative;
+      left: 5%;
+  }
+
+  .bloque-imagen {
+      position: relative;
+      color: black;
+      border: 1px;
+      align-items: row;
+      padding-bottom: 1.5rem;
+  }
+
+  .bloque-info span {
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .bloque2 {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background: rgb(0,0,0);
+      background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
+      background-size: 1440px 474px;
+  }
+
+  .bloque2 h2, .bloque2 p {
+      color: white;
+      text-align: center;
+  }
+
+  .bloque2 h2 {
+      font-family: Roboto;
+      font-weight: normal;
+  }
+
+  .bloque2 p {
+      font-family: Arial;
+  }
+
+  .bloque-info {
+      margin: 58px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;   
+  }
+
+  .titulo-bloque3-PC {
+      margin-top: 125px;
+      margin-left: 136px;
+      font-size: 40px;
+      font-weight: regular;
+      font-family: "Roboto Condensed";
+      display: flex;
+  }
+
+  .footer {
+      background-color: #191A1B;
+  }
+
+  .img-footer-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      margin-inline: 550px;
+  }
+
+  .img-footer {
+      width: 50px;
+      height: 50px;
+  }
+
+  .linea-footer {
+      border:none;
+      height: 20px;
+      width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid black;
+      box-shadow: 0 20px 20px -20px #333;
+      margin: -50px auto 10px; 
+  }
+
+  .footer-bajo {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+  .logo-footer {
+      margin-left: 20px;
+      width: 220px;
+      height:60px
+  }
+
+  .texto-footer {
+      margin-left: 16px;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 20px;
+  }
+  .información-footer {
+      margin-left: 6px;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  @keyframes sliding {
+      0% {
+        transform: translateX(0%);
+      }
+      20% {
+        transform: translateX(0%);
+      }
+      25% {
+        transform: translateX(-100%);
+      }
+      45% {
+        transform: translateX(-100%);
+      }
+      50% {
+        transform: translateX(-200%);
+      }
+      70% {
+        transform: translateX(-200%);
+      }
+      75% {
+        transform: translateX(-300%);
+      }
+      95% {
+        transform: translateX(-300%);
+      }
+      100% {
+        transform: translateX(-400%);
+      }
+  }
+
+  .linea {
+      width: 1100px;
+      border: 2px solid red;
+      border-radius: 3px;
+      margin-left: 29px;
+  }
+
+  .titulo-CTA2 {
+      margin-top: 43px;
+      margin-bottom: 4px;
+      font-family: Roboto Condensed;
+      font-weight: bold;
+      text-align: center;
+      font-size: 64px;
+  }
+
+  .CTA2 {
+      margin: 10px auto;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 32px;
+      font-family: Titillium Web;
+      background: rgb(208,23,23);
+      background: linear-gradient(180deg, rgba(208,23,23,1) 50%, rgba(184,0,0,1) 50%);
+      padding: 10px; 
+      border-radius: 10px;
+      margin-bottom: 48px;
+      height: 75px;
+      width: 454px;
+      align-items: center;
+      border: none;
+  }
+
+  .CTA2-+-titulo {
+      height: 75px;
+      max-width: 454px;
+  }
+
+  .CTA2-center {
+      text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  @font-face {
+    font-family: "Roboto Condensed";
+    src: url("./prueba de html figma/fuentes/RobotoCondensed-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("./prueba de html figma/fuentes/Roboto-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Titillium Web";
+    src: url("./prueba de html figma/fuentes/TitilliumWeb-Regular.ttf");
+  }
+
+  .carrusel-Mobile,
+  .texto-mantenteMOBILE,
+  #carouselExampleSlidesOnly,
+  .bloque-textoMOBILE,
+  .titulo-bloque3-Mobile {
+    display: block;
+  }
+
+  .carrusel-PC,
+  .texto-mantentePC,
+  #homepage-slider,
+  .bloque-textoPC,
+  .titulo-bloque3-PC,
+  .titulo-CTA2,
+  #feedback {
+    display: none;
+  }
+
+  html,body { /* config de la pagina */
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+  }
+
+
+  body { /* configuracion del body, color de fondo */
+    background-color: #F1F4F7;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  header { /* header con degrade */
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(241,244,247,1) 100%);
+    text-align: center;
+  }
+
+  .logo-header { /* logo del header */
+    margin-top: 20px;
+  }
+
+  .Mantente { /* titulo del CTA */
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+    margin-top: 65px;
+  }
+
+  .texto-CTA { /* todo el texto del CTA */
+    text-align: center;
+  }
+
+  .texto-mantenteMOBILE { /* el parrafo del CTA para mobile */
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 22px;
+  }
+
+  .CTA1 { /* el primer CTA */
+    font-family: Titillium Web;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    height: 49px;
+    width: 284px;
+    border: none;
+    background: linear-gradient(180deg, rgba(208,23,23,1) 50%, rgba(184,0,0,1) 50%);
+    border-radius: 10px;
+    margin-bottom: 29px;
+  }
+
+  .carousel-caption { /* posicion de las letras del carrusel */
+    position: absolute;
+    bottom: -20px;
+  }
+  .carousel-caption h1, p { /* letras del carrusel */
+    margin: 0;
+    padding: 0;
+    }
+
+  .carousel-caption p { /* tipo de articulo del carrusel */
+    font-family: Titillium Web;
+    color: #FF0500;
+    font-size: 14px;
+  }
+
+  .carousel-caption h1 { /* titulo del carrusel */
+    margin-top: -5px;
+    font-size: 24px;
+    font-family: Roboto Condensed;
+    font-style: italic;
+    color: white;
+  }
+
+  #carouselExampleSlidesOnly { /* carrusel */
+    margin-bottom: 31px;
+  }
+
+  .bloque2 { /* bloque de secciones */
+    width: fill;
+    height: fit-content;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
+  }
+
+  .bloque-imagen { /* imagenes del bloque de secciones */
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 38px;
+    top: 19px;
+  }
+
+  .bloque-info h2 { /* seccion del bloque de secciones */
+    font-family: Roboto;
+    font-size: 28px;
+    color: white;
+    position: relative;
+    left: 92px;
+    top: -15px;
+    margin-bottom: 18px;
+  }
+
+  .bloque-info span { /* background y padding de la seccion del bloque de secciones */
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .bloque-textoMOBILE {
+    color: white;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    top: -20px;
+    text-align: left;
+    left: 40px;
+  }
+  .footer {
+    background-color: #191A1B;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0; /* Eliminar margen inferior */
+  }
+
+  .img-footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 29px; /* Ajuste de margen */
+  }
+
+  .img-footer {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%; /* Hacer las imágenes circulares */
+  }
+
+  .linea-footer {
+    border: none;
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 5px 5px -5px #333; /* Reducción de la sombra */
+    margin-top: -50px;
+  }
+
+  .logo-footer {
+    width: 193px; /* Ajuste del tamaño */
+    height: 48px; /* Ajuste del tamaño */
+    display: block; /* Para centrar */
+    margin: 0 auto; /* Para centrar */
+  }
+
+  .texto-footer {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px; /* Tamaño de fuente de 7px */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 9px; /* Ajuste del margen superior */
+    margin-left: 5px; /* Ajuste del margen izquierdo */
+    margin-right: 5px;
+    display: inline;
+  }
+
+  .información-footer {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .titulo-bloque3-Mobile {
+    display: flex;
+    margin-top: 15px;
+    display: flex;
+  }
+
+  .titulo-linea-Mobile {
+    font-weight: regular;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    align-items: center;
+    margin-left: 15%;
+  }
+
+  .CTA2 {
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Titillium Web;
+    background: rgb(208,23,23);
+    background: linear-gradient(180deg, rgba(208,23,23,1) 50%, rgba(184,0,0,1) 50%);
+    padding: 10px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 49px;
+    width: 284px;
+    align-items: center;
+    border: none;
+  }
+
+  .CTA2-center {
+    text-align: center;
+  }
+
+  .footer-bajo {
+    text-align: center;
+  }
+}

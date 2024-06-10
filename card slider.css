@@ -1,0 +1,176 @@
+@media screen and (max-width: 1600px) and (min-width: 992px) {
+    .card {
+        height: 278px;
+        width: 216px;
+    }
+
+    .imagen-card {
+        height: 278px;
+        width: 216px;
+    }
+
+    .titulo-card {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background-color: #C51111;
+        position: absolute;
+        bottom: 10px;
+        left: 11px;
+    }
+
+    .plataforma-card {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background-color: #484848;
+        position: absolute;
+        bottom: 45px;
+        left: 11px;
+}
+
+    .circulo-card {
+        height: 67px;
+        width: 63px;
+        background-color: #484848;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        right: 6px;
+        stroke: black;
+    }
+
+    .lanzamiento-card-mes {
+        font-family: Roboto Condensed;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        bottom: 19px;
+        right: 22px;
+    }
+
+    .lanzamiento-card-dia {
+        font-family: Roboto Condensed;
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        bottom: 37px;
+        right: 24px;
+    }
+
+    .cards-wrapper {
+        display: flex;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .carousel {
+        position: relative;
+    }
+
+    .carousel-control-prev , .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: TranslateY(-50%);
+    }
+
+    .carousel-control-prev {
+        right: auto;
+        left: 20px;
+    }
+
+    .carousel-control-next {
+        left: auto;
+        right: 20px;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+    }
+}
+
+@media (max-width: 991px) {
+    .card {
+        height: 89px;
+        width: 200px;
+        background: none;
+        border: none;
+        text-align: justify;
+    }
+    
+    .imagen-card {
+       height: 89px;
+       width: 79px;
+       position: absolute;
+       border: 1px solid black;
+    }
+    
+    .titulo-card {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        left: 90px;
+        top: 1px;
+    }
+    
+    .plataforma-card {
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        left: 90px;
+        top: 46px;
+    }
+    
+    .rectangulo-card {
+        height: 89px;
+        width: 178px;
+        background-color: #484848;
+        border: 1px solid black;
+        position: absolute;
+    }
+    
+    .lanzamiento-card {
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        left: 90px;
+        bottom: 5px;
+    }
+    
+    .cards-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .card {
+        margin: auto;
+    }
+    
+    .carousel {
+        position: relative;
+    }
+
+    .carousel-control-prev , .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: TranslateY(-50%);
+    }
+    
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+    }
+}

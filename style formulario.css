@@ -1,0 +1,198 @@
+@media screen and (max-width: 1600px) and (min-width: 992px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; /* Cambio aquí */
+        align-items: center;
+        height: 100vh;
+        background-image: url(./imagenes/fondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #logo-header {
+        position: absolute;
+        left: 27px;
+        top: 20px;
+    }
+
+    .container {
+        background: rgba(255,255,255,0.7);
+        margin: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 400px;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .titulo {
+        color: black;
+        text-align: left;
+        font-family: Roboto Condensed;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .checkbox-group {
+        margin: 10px 0 20px;
+    }
+
+    .checkbox-group label {
+        display: inline-block;
+        margin-right: 9px;
+    }
+
+    button[type="submit"] {
+        color: white;
+        font-weight: bold;
+        font-size: 32px;
+        font-family: Titillium Web;
+        background: linear-gradient(180deg, rgba(208,23,23,1) 50%, rgba(184,0,0,1) 50%);
+        padding: 10px;  
+        border-radius: 10px;
+        border: none;
+    }
+
+    footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background: #222;
+        color: white;
+    }
+
+    input {
+        font-style: italic;
+    }
+
+    #bold {
+        font-weight: bold;
+    }
+
+    .boton-submit {
+        text-align: center;
+    }
+
+    #feedback {
+        height: fit-content;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; /* Cambio aquí */
+        align-items: center;
+        height: 100vh;
+        background-image: url(./imagenes/fondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #logo-header {
+        position: relative;
+        align-items: center;
+        top: 20px;
+        width: 257.33px;
+        height: 64px;
+    }
+
+    .container {
+        background: rgba(255,255,255,0.7);
+        margin: 30px;
+        border-radius: 10px;
+        width: 301px;
+        height: 440px;
+        margin-top: 40px;
+    }
+
+    .titulo {
+        color: black;
+        text-align: left;
+        font-family: Roboto Condensed;
+        font-size: 23px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background: #222;
+        color: white;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 280px;
+        padding: 10px;
+        margin: 5px 0 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-left: 10px;
+    }
+
+    input {
+        font-style: italic;
+    }
+
+    #bold {
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .boton-submit {
+        text-align: center;
+    }
+
+    button[type="submit"] {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Titillium Web;
+        background: linear-gradient(180deg, rgba(208,23,23,1) 50%, rgba(184,0,0,1) 50%);
+        padding: 10px;  
+        border-radius: 10px;
+        border: none;
+    }
+
+    .checkbox-group {
+        margin: 10px 0 20px;
+    }
+
+    .checkbox-group label {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .footer-bajo {
+        text-align: center;
+    }
+
+    #feedback {
+        height: fit-content;
+    }
+}
